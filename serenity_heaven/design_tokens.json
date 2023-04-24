@@ -1,0 +1,45 @@
+{
+  "colors": {
+    "primary": "#4CAF50",
+    "secondary": "#81C784",
+    "accent": "#FF9800",
+    "text": "#3D3D3D",
+    "background": "#FFFFFF"
+  },
+  "typography": {
+    "fontFamily": "Roboto, sans-serif",
+    "heading1": {
+      "size": "32px",
+      "weight": "bold",
+      "color": "primary"
+    },
+    "heading2": {
+      "size": "24px",
+      "weight": "bold",
+      "color": "secondary"
+    },
+    "bodyText": {
+      "size": "16px",
+      "weight": "regular",
+      "color": "text"
+    },
+    "buttonText": {
+      "size": "16px",
+      "weight": "bold",
+      "color": "accent"
+    }
+  },
+  "spacing": {
+    "small": "8px",
+    "medium": "16px",
+    "large": "32px"
+  },
+  "borderRadius": {
+    "default": "4px",
+    "circular": "50%"
+  },
+  "shadows": {
+    "boxShadow": "0 4px 6px rgba(0, 0, 0, 0.1)",
+    "textShadow": "1px 1px 2px rgba(0, 0, 0, 0.2)"
+  }
+}
