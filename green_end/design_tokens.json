@@ -19,9 +19,6 @@
     "background": {
       "value": "#FFFFFF",
       "type": "color"
-    },
-    "boxShadow": {
-      "type": "boxShadow"
     }
   },
   "typography": {
@@ -84,6 +81,20 @@
         "value": "accent",
         "type": "other"
       }
+    },
+    "test": {
+      "value": {
+        "fontFamily": "{fontFamilies.inter}",
+        "fontWeight": "{fontWeights.inter-0}",
+        "lineHeight": "{lineHeights.0}",
+        "fontSize": "{fontSize.0}",
+        "letterSpacing": "{letterSpacing.0}",
+        "paragraphSpacing": "{paragraphSpacing.0}",
+        "paragraphIndent": "{paragraphIndent.0}",
+        "textCase": "{textCase.none}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography"
     }
   },
   "spacing": {
