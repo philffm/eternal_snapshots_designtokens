@@ -11,47 +11,31 @@
     "accent": {
       "value": "#FF9800",
       "type": "color"
-    },
-    "text": {
-      "value": "#3D3D3D",
-      "type": "color"
-    },
-    "background": {
-      "value": "#FFFFFF",
-      "type": "color"
     }
   },
   "typography": {
     "fontFamily": {
       "value": "Roboto, sans-serif",
-      "type": "other"
+      "type": "typography"
     },
     "heading1": {
       "size": {
         "value": "32px",
-        "type": "other"
+        "type": "typography"
       },
       "weight": {
         "value": "bold",
-        "type": "other"
-      },
-      "color": {
-        "value": "primary",
-        "type": "other"
+        "type": "typography"
       }
     },
     "heading2": {
       "size": {
         "value": "24px",
-        "type": "other"
+        "type": "typography"
       },
       "weight": {
         "value": "bold",
-        "type": "other"
-      },
-      "color": {
-        "value": "secondary",
-        "type": "other"
+        "type": "typography"
       }
     },
     "bodyText": {
@@ -61,40 +45,18 @@
       },
       "weight": {
         "value": "regular",
-        "type": "other"
-      },
-      "color": {
-        "value": "text",
-        "type": "other"
+        "type": "typography"
       }
     },
     "buttonText": {
       "size": {
         "value": "16px",
-        "type": "other"
+        "type": "typography"
       },
       "weight": {
         "value": "bold",
-        "type": "other"
-      },
-      "color": {
-        "value": "accent",
-        "type": "other"
+        "type": "typography"
       }
-    },
-    "test": {
-      "value": {
-        "fontFamily": "{fontFamilies.inter}",
-        "fontWeight": "{fontWeights.inter-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.0}",
-        "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}",
-        "textCase": "{textCase.none}",
-        "textDecoration": "{textDecoration.none}"
-      },
-      "type": "typography"
     }
   },
   "spacing": {
@@ -114,11 +76,11 @@
   "borderRadius": {
     "default": {
       "value": "4px",
-      "type": "other"
+      "type": "typography"
     },
     "circular": {
       "value": "50%",
-      "type": "other"
+      "type": "typography"
     }
   },
   "shadows": {
@@ -131,14 +93,36 @@
       "type": "other"
     }
   },
-  "$themes": [],
+  "themes": {
+    "light": {
+      "text": {
+        "value": "#3D3D3D",
+        "type": "color"
+      },
+      "background": {
+        "value": "#FFFFFF",
+        "type": "color"
+      }
+    },
+    "dark": {
+      "text": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "background": {
+        "value": "#303030",
+        "type": "color"
+      }
+    }
+  },
   "$metadata": {
     "tokenSetOrder": [
       "colors",
       "typography",
       "spacing",
       "borderRadius",
-      "shadows"
+      "shadows",
+      "themes"
     ]
   }
 }
