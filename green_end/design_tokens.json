@@ -6,19 +6,19 @@
     },
     "secondary": {
       "value": "#81C784",
-      "type": "other"
+      "type": "color"
     },
     "accent": {
       "value": "#FF9800",
-      "type": "other"
+      "type": "color"
     },
     "text": {
       "value": "#3D3D3D",
-      "type": "other"
+      "type": "color"
     },
     "background": {
       "value": "#FFFFFF",
-      "type": "other"
+      "type": "color"
     },
     "boxShadow": {
       "type": "boxShadow"
