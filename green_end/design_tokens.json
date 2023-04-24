@@ -1,8 +1,8 @@
 {
   "colors": {
     "primary": {
-      "value": "#4CAF50",
-      "type": "other"
+      "value": "#4caf50",
+      "type": "color"
     },
     "secondary": {
       "value": "#81C784",
@@ -19,6 +19,9 @@
     "background": {
       "value": "#FFFFFF",
       "type": "other"
+    },
+    "boxShadow": {
+      "type": "boxShadow"
     }
   },
   "typography": {
